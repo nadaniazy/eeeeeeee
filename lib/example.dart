@@ -13,7 +13,7 @@ class Example extends StatelessWidget {
               children: [
                 Image(image: AssetImage("assets/Rectangle 34624169.png"),width: double.infinity,height: double.infinity,fit: BoxFit.cover,),
                 Stack(
-                  alignment: AlignmentDirectional.topCenter,
+                  alignment: AlignmentDirectional.topStart,
                   children: [
                   Image(image: AssetImage("assets/Maskgroup.png"),width: double.infinity,height: MediaQuery.of(context).size.height/2,fit: BoxFit.cover,),
                   Image(image: AssetImage("assets/Maskgroup.png"),fit: BoxFit.contain,),
