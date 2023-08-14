@@ -6,7 +6,7 @@ class Example extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         body: Stack(
-          alignment:AlignmentDirectional.center,
+          alignment:AlignmentDirectional.bottomCenter,
           children: [
             Stack(
               alignment: AlignmentDirectional.bottomCenter,
